@@ -24,7 +24,7 @@
 	/*background: -webkit-linear-gradient(#f0ad4e, #ed7014);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
-  transform: scale(1.2);
+  transform: scale(1);
 }
 
 .card{
@@ -61,7 +61,6 @@
 	.card{
 		margin-bottom: 10px !important;
 	}
-
 	.image{
 		height: 150px !important;
 	}
