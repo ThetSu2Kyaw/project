@@ -5,18 +5,56 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Project</title>
+	<title>Hlu Kya Ml</title>
+	<style>
+		.card{
+			cursor:pointer;
+  			transition:all .4s ease-in-out;
+  			box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),-8px -8px 12px 0 rgba(255, 255, 255, 0.3); 
+  		}
+
+		.card:hover{
+  			transform:scale(1.05);
+  			box-shadow:15px 15px 15px #888888;
+		}
+
+		@media(max-width: 767px){
+			.container-fluid{
+				padding: 15px 25px !important;
+			}
+			.card{
+				margin-bottom: 15px !important;
+			}
+			p{
+				font-size: 14px !important;
+			}
+			.icon{
+				font-size: 12px !important;
+			}
+		}
+
+		.page-item:hover{
+			border-radius: 5px;
+			background: #989898;
+		}
+
+		.page-item.active .page-link {
+		    color: #fff;
+		    background-color: #989898 !important;
+		    border-color: #fff;
+		}
+	</style>
 </head>
-<body>
+<body class="bg-secondary bg-opacity-25">
 
 <div class="container-fluid px-5 py-4">
 
 <header>
-	<h1 class="fs-2 mb-0" id="heading">Project</h1>
+	<h1 class="fs-2 mb-0" id="heading">Hlu Kya Ml</h1>
 	<p class="mt-0" style="font-size: 15px;">We support Heros</p>
 </header>
 
-<nav class="my-2 navbar navbar-expand-lg navbar-dark bg-dark py-1 px-1 border border-2 border-warning position-relative">
+<nav class="my-2 navbar navbar-expand-lg navbar-dark bg-dark py-1 px-1 border border-2 border-warning position-relative rounded">
 	<button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon text-white burger" style="font-size: 17px;"></span>
     </button>
@@ -42,14 +80,14 @@
 	<div class="row flex-column flex-lg-row">
 		<div class="col">
 		<div class="card mb-3">
-			<div class="card-body p-0 m-0 bg-light bg-gradient bg-opacity-25 rounded">
+			<div class="card-body p-0 m-0 bg-secondary bg-gradient bg-opacity-25 rounded">
 				<div class="rounded-top image" style="height: 200px;background: -webkit-linear-gradient(#f0ad4e, #ed7014);"></div>
 				<div class="py-3 px-3">
 					<div class="d-flex justify-content-between">
-						<span class="text-muted" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+						<span class="text-muted icon" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
   						<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
 						</svg> Anonymous</span>
-						<span class="text-muted" style="font-size: 14px;"><i class="bi bi-calendar"></i>
+						<span class="text-muted icon" style="font-size: 14px;"><i class="bi bi-calendar"></i>
 						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
   						<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg> January 10, 2022</span>
 					</div>
@@ -63,14 +101,14 @@
 		</div>
 		<div class="col">
 		<div class="card mb-3">
-			<div class="card-body p-0 m-0 bg-light bg-gradient bg-opacity-25 rounded">
+			<div class="card-body p-0 m-0 bg-secondary bg-gradient bg-opacity-25 rounded">
 				<div class="rounded-top image" style="height: 200px;background: -webkit-linear-gradient(#f0ad4e, #ed7014);"></div>
 				<div class="py-3 px-3">
 					<div class="d-flex justify-content-between">
-						<span class="text-muted" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+						<span class="text-muted icon" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
   						<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
 						</svg> Anonymous</span>
-						<span class="text-muted" style="font-size: 14px;"><i class="bi bi-calendar"></i>
+						<span class="text-muted icon" style="font-size: 14px;"><i class="bi bi-calendar"></i>
 						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
   						<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg> January 10, 2022</span>
 					</div>
@@ -84,14 +122,14 @@
 		</div>
 		<div class="col">
 		<div class="card mb-3">
-			<div class="card-body p-0 m-0 bg-light bg-gradient bg-opacity-25 rounded">
+			<div class="card-body p-0 m-0 bg-secondary bg-gradient bg-opacity-25 rounded">
 				<div class="rounded-top image" style="height: 200px;background: -webkit-linear-gradient(#f0ad4e, #ed7014);"></div>
 				<div class="py-3 px-3">
 					<div class="d-flex justify-content-between">
-						<span class="text-muted" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+						<span class="text-muted icon" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
   						<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
 						</svg> Anonymous</span>
-						<span class="text-muted" style="font-size: 14px;"><i class="bi bi-calendar"></i>
+						<span class="text-muted icon" style="font-size: 14px;"><i class="bi bi-calendar"></i>
 						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
   						<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg> January 10, 2022</span>
 					</div>
@@ -107,14 +145,14 @@
 	<div class="row flex-column flex-lg-row">
 		<div class="col">
 		<div class="card mb-3">
-			<div class="card-body p-0 m-0 bg-light bg-gradient bg-opacity-25 rounded">
+			<div class="card-body p-0 m-0 bg-secondary bg-gradient bg-opacity-25 rounded">
 				<div class="rounded-top image" style="height: 200px;background: -webkit-linear-gradient(#f0ad4e, #ed7014);"></div>
 				<div class="py-3 px-3">
 					<div class="d-flex justify-content-between">
-						<span class="text-muted" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+						<span class="text-muted icon" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
   						<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
 						</svg> Anonymous</span>
-						<span class="text-muted" style="font-size: 14px;"><i class="bi bi-calendar"></i>
+						<span class="text-muted icon" style="font-size: 14px;"><i class="bi bi-calendar"></i>
 						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
   						<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg> January 10, 2022</span>
 					</div>
@@ -128,14 +166,14 @@
 		</div>
 		<div class="col">
 		<div class="card mb-3">
-			<div class="card-body p-0 m-0 bg-light bg-gradient bg-opacity-25 rounded">
+			<div class="card-body p-0 m-0 bg-secondary bg-gradient bg-opacity-25 rounded">
 				<div class="rounded-top image" style="height: 200px;background: -webkit-linear-gradient(#f0ad4e, #ed7014);"></div>
 				<div class="py-3 px-3">
 					<div class="d-flex justify-content-between">
-						<span class="text-muted" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+						<span class="text-muted icon" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
   						<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
 						</svg> Anonymous</span>
-						<span class="text-muted" style="font-size: 14px;"><i class="bi bi-calendar"></i>
+						<span class="text-muted icon" style="font-size: 14px;"><i class="bi bi-calendar"></i>
 						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
   						<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/></svg> January 10, 2022</span>
 					</div>
@@ -149,11 +187,11 @@
 		</div>
 		<div class="col">
 		<div class="card mb-3">
-			<div class="card-body p-0 m-0 bg-light bg-gradient bg-opacity-25 rounded">
+			<div class="card-body p-0 m-0 bg-secondary bg-gradient bg-opacity-25 rounded">
 				<div class="rounded-top image" style="height: 200px;background: -webkit-linear-gradient(#f0ad4e, #ed7014);"></div>
 				<div class="py-3 px-3">
 					<div class="d-flex justify-content-between">
-						<span class="text-muted" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+						<span class="text-muted icon" style="font-size: 15px;"><i class="bi bi-person"></i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
   						<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
 						</svg> Anonymous</span>
 						<span class="text-muted" style="font-size: 14px;"><i class="bi bi-calendar"></i>
@@ -167,6 +205,15 @@
 				</div>
 			</div>
 		</div>
+		</div>
+		<div>
+			<ul class="pagination justify-content-center">
+				<li class="page-item"><a href="#" class="page-link bg-secondary bg-gradient bg-opacity-10 text-dark">&laquo;</a></li>
+				<li class="page-item"><a href="#" class="page-link bg-secondary bg-gradient bg-opacity-10 text-dark">1</a></li>
+				<li class="page-item active"><a href="#" class="page-link bg-secondary bg-gradient bg-opacity-10 text-dark">2</a></li>
+				<li class="page-item"><a href="#" class="page-link bg-secondary bg-gradient bg-opacity-10 text-dark">3</a></li>
+				<li class="page-item"><a href="#" class="page-link bg-secondary bg-gradient bg-opacity-10 text-dark">&raquo;</a></li>
+			</ul>
 		</div>
 	</div>
 </main>

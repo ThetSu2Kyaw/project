@@ -27,20 +27,9 @@
   transform: scale(1);
 }
 
-.card{
-  /*border: 1px solid gray;*/
-  transition: border-color 1s, box-shadow 0.5s;
-}
-
-.card:hover{
-  transform: scale(1);
-  /*box-shadow: 0 10px 20px rgba(0,0,0,.9), 0 4px 8px rgba(0,0,0,.06);*/
-  box-shadow: 5px 10px 5px #888888;
-}
-
 @media(max-width: 767px){
 	.container-fluid{
-		padding: 10px 20px !important;
+		padding: 13px 23px !important;
 	}
 	.home, .about, .contact{
 		display: none;
@@ -48,9 +37,6 @@
 	.burger{
 		display: block;
 	}
-	/*.navbar{
-		padding: 3px !important;
-	}*/
 	.search{
 		padding: 0 !important;
 		padding-top: 3px !important;
@@ -59,7 +45,7 @@
 		margin: 20px 0 !important;
 	}
 	.card{
-		margin-bottom: 10px !important;
+		margin-bottom: 15px !important;
 	}
 	.image{
 		height: 150px !important;
@@ -78,10 +64,7 @@
   -webkit-text-fill-color: transparent;
   transform: scale(1.2);
 }
-/*
-.navbar-toggler:hover{
-	background: -webkit-linear-gradient(#f0ad4e, #ed7014);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1.2);
-}*/
+
+.page-item:hover .page-link{
+	background: red;
+}
